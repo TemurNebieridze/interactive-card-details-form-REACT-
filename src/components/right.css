@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-container {
+  margin-left: 100px;
+}
+
+.card-name-right {
+  color: #21092f;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 9px;
+}
+
+.name-input-right {
+  width: 381px;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid var(--Light-Grey, #dfdee0);
+  background: #fff;
+  margin-bottom: 26px;
+  padding-left: 15px;
+}
+
+.name-input-right:hover {
+  cursor: pointer;
+}
+
+.card-number-right {
+  color: #21092f;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.card-number-input-right {
+  width: 381px;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid var(--Light-Grey, #dfdee0);
+  background: #fff;
+  margin-bottom: 26px;
+  margin-top: 9px;
+  padding-left: 15px;
+}
+
+.card-number-input-right:hover {
+  cursor: pointer;
+}
+
+.exp-right {
+  color: #21092f;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.month-input-right {
+  width: 80px;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid var(--Light-Grey, #dfdee0);
+  background: #fff;
+  padding-left: 15px;
+}
+
+.month-input-right:hover {
+  cursor: pointer;
+}
+
+.date-cvc-right {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.mmyy-right {
+  color: #21092f;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.year-input-right {
+  width: 80px;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid var(--Light-Grey, #dfdee0);
+  background: #fff;
+  padding-left: 15px;
+}
+
+.year-input-right:hover {
+  cursor: pointer;
+}
+
+.cvc-right {
+  color: #21092f;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.cvc-input-right {
+  width: 191px;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid var(--Light-Grey, #dfdee0);
+  background: #fff;
+  padding-left: 15px;
+}
+
+.cvc-input-right:hover {
+  cursor: pointer;
+}
+
+.btn {
+  width: 381px;
+  height: 53px;
+  border-radius: 8px;
+  background: #21092f;
+
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.btn:hover {
+  cursor: pointer;
+}

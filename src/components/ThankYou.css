@@ -1,0 +1,32 @@
+.main-thankYou {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.thankYou-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.thanks {
+  margin-top: 35px;
+  margin-bottom: 16px;
+}
+
+.btn2 {
+  margin-top: 48px;
+  width: 381px;
+  height: 53px;
+  border-radius: 8px;
+  background: #21092f;
+
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.btn2:hover {
+  cursor: pointer;
+}
